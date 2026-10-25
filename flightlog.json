@@ -3,8 +3,57 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-10-25T11:39:27.298Z",
+  "updated": "2026-10-25T12:02:20.048Z",
   "flights": [
+    {
+      "schema": 1,
+      "id": "20261024-184911-piercer-mini",
+      "rocket": "Piercer Mini",
+      "motor": "F50-9",
+      "location": {
+        "name": "BARC",
+        "source": "log",
+        "lat": 39.468662,
+        "lon": -75.292763,
+        "alt_m": 38.1
+      },
+      "date": {
+        "utc": "2026-10-24T18:49:11Z",
+        "source": "gnss",
+        "local": "2026-10-24 14:49",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "M1",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": true
+      },
+      "results": {
+        "apogee_m": 346.38,
+        "max_speed_mps": 85.81,
+        "max_accel_g": 282.66,
+        "flight_time_s": 68.04,
+        "landing_distance_m": 168.66
+      },
+      "outcome": null,
+      "notes": "Good flight and recovery. Good data. Some airframe roll.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "lora_20261024_184507 copy.bin",
+          "lora_20261024_184507_rocket5.csv",
+          "lora_20261024_184507_rocket2.csv",
+          "lora_20261024_184507 2.bin",
+          "lora_20261024_184507.bin",
+          "flight_20261024_185019.bin",
+          "flight_20261024_185019.json"
+        ]
+      },
+      "source_file": "flight_20261024_185019.bin",
+      "created": "2026-10-25T12:02:19.149Z",
+      "updated": "2026-10-25T12:02:19.149Z"
+    },
     {
       "schema": 1,
       "id": "20261024-165353-65mm-roll-control",
