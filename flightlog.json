@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-10-25T12:07:05.802Z",
+  "updated": "2026-10-25T13:47:30.356Z",
   "flights": [
     {
       "schema": 1,
@@ -36,7 +36,7 @@
         "flight_time_s": 68.04,
         "landing_distance_m": 168.66
       },
-      "outcome": null,
+      "outcome": "success",
       "notes": "Good flight and recovery. Good data. Some airframe roll.",
       "files": {
         "report": "report.html",
@@ -52,7 +52,7 @@
       },
       "source_file": "flight_20261024_185019.bin",
       "created": "2026-10-25T12:02:19.149Z",
-      "updated": "2026-10-25T12:02:19.149Z"
+      "updated": "2026-10-25T13:47:29.711Z"
     },
     {
       "schema": 1,
