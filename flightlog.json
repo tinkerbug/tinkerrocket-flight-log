@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-10-25T14:34:14.590Z",
+  "updated": "2026-10-25T14:40:05.879Z",
   "flights": [
     {
       "schema": 1,
@@ -98,6 +98,51 @@
       "source_file": "flight_20261024_165426.bin",
       "created": "2026-10-25T11:28:48.947Z",
       "updated": "2026-10-25T12:07:04.948Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261024-161235-rim-66-1-6in",
+      "rocket": "RIM 66 1.6in",
+      "motor": "G80-7",
+      "location": {
+        "name": "BARC",
+        "source": "log",
+        "lat": 39.468658,
+        "lon": -75.292851,
+        "alt_m": 44.5
+      },
+      "date": {
+        "utc": "2026-10-24T16:12:35Z",
+        "source": "gnss",
+        "local": "2026-10-24 12:12",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "M1",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": true
+      },
+      "results": {
+        "apogee_m": 933.65,
+        "max_speed_mps": 174.86,
+        "max_accel_g": 26.87,
+        "flight_time_s": 113.58,
+        "landing_distance_m": 151.2
+      },
+      "outcome": "success",
+      "notes": "Good flight and recovery.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "flight_20261024_161431.bin",
+          "flight_20261024_161431.json",
+          "lora_20261024_160436.bin"
+        ]
+      },
+      "source_file": "flight_20261024_161431.bin",
+      "created": "2026-10-25T14:40:04.998Z",
+      "updated": "2026-10-25T14:40:04.998Z"
     },
     {
       "schema": 1,
