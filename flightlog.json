@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "pilot": {
+    "login": "tinkerbug"
+  },
+  "updated": "2026-10-25T11:39:27.298Z",
+  "flights": [
+    {
+      "schema": 1,
+      "id": "20261024-165353-65mm-roll-control",
+      "rocket": "65mm Roll Control",
+      "motor": "G80-7",
+      "location": {
+        "name": "BARC",
+        "source": "manual",
+        "lat": 39.468669,
+        "lon": -75.292822,
+        "alt_m": 31.5
+      },
+      "date": {
+        "utc": "2026-10-24T16:53:53Z",
+        "source": "gnss",
+        "local": "2026-10-24 12:53",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V9",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 244.76,
+        "max_speed_mps": 71.67,
+        "max_accel_g": 39.45,
+        "flight_time_s": 32.22,
+        "landing_distance_m": 316.63
+      },
+      "outcome": "success",
+      "notes": "Good flight and recovery. Tilted off pad, but clean roll control with very little control input needed.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "flight_20261024_165426.bin",
+          "flight_20261024_165426.json",
+          "lora_20261024_164748.bin"
+        ]
+      },
+      "source_file": "flight_20261024_165426.bin",
+      "created": "2026-10-25T11:28:48.947Z",
+      "updated": "2026-10-25T11:39:23.007Z"
+    }
+  ]
+}
