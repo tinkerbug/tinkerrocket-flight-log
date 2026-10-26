@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-10-25T14:40:05.879Z",
+  "updated": "2026-10-26T23:30:39.299Z",
   "flights": [
     {
       "schema": 1,
@@ -187,7 +187,7 @@
       },
       "source_file": "flight_20261024_144610.bin",
       "created": "2026-10-25T14:34:13.531Z",
-      "updated": "2026-10-25T14:34:13.531Z"
+      "updated": "2026-10-26T23:30:38.409Z"
     }
   ]
 }
