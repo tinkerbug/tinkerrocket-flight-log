@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-20T11:25:19.801Z",
+  "updated": "2026-11-20T11:25:33.436Z",
   "flights": [
     {
       "schema": 1,
@@ -95,6 +95,52 @@
       "source_file": "flight_20261101_193822.bin",
       "created": "2026-11-04T21:37:00.109Z",
       "updated": "2026-11-04T21:37:00.109Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261101-185100-gtv-blue",
+      "rocket": "GTV Blue",
+      "motor": "F6706",
+      "location": {
+        "name": "CENJARS",
+        "source": "manual",
+        "lat": 40.163384,
+        "lon": -74.080876,
+        "alt_m": 27.2
+      },
+      "date": {
+        "utc": "2026-11-01T18:51:00Z",
+        "source": "gnss",
+        "local": "2026-11-01 13:51",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V9",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 159.85,
+        "max_speed_mps": 55.71,
+        "max_accel_g": 5.68,
+        "peak_shock_g": 282.03,
+        "flight_time_s": 15.9,
+        "landing_distance_m": 138.43
+      },
+      "outcome": null,
+      "notes": "Guidance went unstable quickly. Parachute did not come out of tube.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "lora_20261101_183925.bin",
+          "flight_20261101_185116.bin",
+          "flight_20261101_185116.json"
+        ]
+      },
+      "source_file": "flight_20261101_185116.bin",
+      "created": "2026-11-04T21:20:10.956Z",
+      "updated": "2026-11-04T21:20:10.956Z"
     },
     {
       "schema": 1,
