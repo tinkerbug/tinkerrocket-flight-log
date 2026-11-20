@@ -3,8 +3,53 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-10-26T23:30:39.299Z",
+  "updated": "2026-11-20T11:24:37.869Z",
   "flights": [
+    {
+      "schema": 1,
+      "id": "20261101-202112-65mm-roll-control",
+      "rocket": "BT-60 SM-2",
+      "motor": "F52-5",
+      "location": {
+        "name": "CENJARS",
+        "source": "log",
+        "lat": 40.163441,
+        "lon": -74.080907,
+        "alt_m": -0.2
+      },
+      "date": {
+        "utc": "2026-11-01T20:21:12Z",
+        "source": "gnss",
+        "local": "2026-11-01 15:21",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "M1",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": true
+      },
+      "results": {
+        "apogee_m": 62.85,
+        "max_speed_mps": 31.42,
+        "max_accel_g": 8.13,
+        "peak_shock_g": 255.11,
+        "flight_time_s": 5.53,
+        "landing_distance_m": 26.18
+      },
+      "outcome": "failure",
+      "notes": "Rail button damage caused it to head directly into the ground after clearing the rail.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "flight_20261101_202118.bin",
+          "lora_20261101_201016.bin"
+        ]
+      },
+      "source_file": "flight_20261101_202118.bin",
+      "created": "2026-11-09T17:15:40.773Z",
+      "updated": "2026-11-20T11:21:40.181Z"
+    },
     {
       "schema": 1,
       "id": "20261024-184911-piercer-mini",
