@@ -5,6 +5,7 @@ Published from the [TinkerRocket flight analysis tool](https://tinkerbug-robotic
 | Date | Rocket | Motor | Location | Computer | Apogee (m) | Max speed (m/s) | Outcome | Report |
 |---|---|---|---|---|---:|---:|---|---|
 | 2026-11-01 15:21 | BT-60 SM-2 | F52-5 | CENJARS | M1 · 41b2ab92+ | 63 | 31 | Failure | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261101-202112-65mm-roll-control) |
+| 2026-11-01 14:38 | GTV White | G74-6 | CENJARS | V9 · 41b2ab92 | 203 | 61 |  | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261101-193803-gtv-white) |
 | 2026-10-24 14:49 | Piercer Mini | F50-9 | BARC | M1 · 41b2ab92+ | 346 | 86 | Success | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261024-184911-piercer-mini) |
 | 2026-10-24 12:53 | 65mm Roll Control | G80-7 | BARC | V9 · 41b2ab92 | 245 | 72 | Success | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261024-165353-65mm-roll-control) |
 | 2026-10-24 12:12 | RIM 66 1.6in | G80-7 | BARC | M1 · 41b2ab92+ | 934 | 175 | Success | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261024-161235-rim-66-1-6in) |

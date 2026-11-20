@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-20T11:24:50.894Z",
+  "updated": "2026-11-20T11:24:59.514Z",
   "flights": [
     {
       "schema": 1,
@@ -49,6 +49,52 @@
       "source_file": "flight_20261101_202118.bin",
       "created": "2026-11-09T17:15:40.773Z",
       "updated": "2026-11-20T11:21:40.181Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261101-193803-gtv-white",
+      "rocket": "GTV White",
+      "motor": "G74-6",
+      "location": {
+        "name": "CENJARS",
+        "source": "log",
+        "lat": 40.163391,
+        "lon": -74.080898,
+        "alt_m": 26.5
+      },
+      "date": {
+        "utc": "2026-11-01T19:38:03Z",
+        "source": "gnss",
+        "local": "2026-11-01 14:38",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V9",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 203.38,
+        "max_speed_mps": 60.56,
+        "max_accel_g": 7.87,
+        "peak_shock_g": 305.03,
+        "flight_time_s": 17.16,
+        "landing_distance_m": 137.08
+      },
+      "outcome": null,
+      "notes": "Guidance did not seem to enable and roll control was unstable. Chute release was not turned on",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "lora_20261101_193305.bin",
+          "flight_20261101_193822.bin",
+          "flight_20261101_193822.json"
+        ]
+      },
+      "source_file": "flight_20261101_193822.bin",
+      "created": "2026-11-04T21:37:00.109Z",
+      "updated": "2026-11-04T21:37:00.109Z"
     },
     {
       "schema": 1,
