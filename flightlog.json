@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-20T11:26:07.127Z",
+  "updated": "2026-11-20T11:26:26.123Z",
   "flights": [
     {
       "schema": 1,
@@ -282,6 +282,51 @@
       "source_file": "flight_20261024_185019.bin",
       "created": "2026-10-25T12:02:19.149Z",
       "updated": "2026-10-25T13:47:29.711Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261024-180917-rolly-polly-v",
+      "rocket": "Rolly Polly V",
+      "motor": "J570-14",
+      "location": {
+        "name": "BARC",
+        "source": "manual",
+        "lat": 39.468671,
+        "lon": -75.292747,
+        "alt_m": 35.3
+      },
+      "date": {
+        "utc": "2026-10-24T18:09:17Z",
+        "source": "gnss",
+        "local": "2026-10-24 14:09",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V9",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 625.98,
+        "max_speed_mps": 103.64,
+        "max_accel_g": 13.3,
+        "peak_shock_g": 88.81,
+        "flight_time_s": 68.32,
+        "landing_distance_m": 327.77
+      },
+      "outcome": null,
+      "notes": "",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "flight_20261024_181027.bin",
+          "flight_20261024_181027.json"
+        ]
+      },
+      "source_file": "flight_20261024_181027.bin",
+      "created": "2026-11-08T21:00:20.309Z",
+      "updated": "2026-11-08T21:00:20.309Z"
     },
     {
       "schema": 1,
