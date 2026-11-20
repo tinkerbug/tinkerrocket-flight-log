@@ -14,5 +14,6 @@ Published from the [TinkerRocket flight analysis tool](https://tinkerbug-robotic
 | 2026-10-24 12:53 | 65mm Roll Control | G80-7 | BARC | V9 · 41b2ab92 | 245 | 72 | Success | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261024-165353-65mm-roll-control) |
 | 2026-10-24 12:12 | RIM 66 1.6in | G80-7 | BARC | M1 · 41b2ab92+ | 934 | 175 | Success | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261024-161235-rim-66-1-6in) |
 | 2026-10-24 10:45 | Wildman Goblin 4in | J325-14 | BARC | V9 · 41b2ab92 | 845 | 399 | Success | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261024-144510-wildman-goblin-4in) |
+| 2026-08-29 11:22 | Roly Poly V - L2 | J570-14 | BARC | d7017c0 | 632 | 80 | Partial | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20260829-152248-roly-poly-v-l2) |
 
 Delete this repository to take the log down.

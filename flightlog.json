@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-20T11:26:26.123Z",
+  "updated": "2026-11-20T11:26:44.965Z",
   "flights": [
     {
       "schema": 1,
@@ -462,6 +462,52 @@
       "source_file": "flight_20261024_144610.bin",
       "created": "2026-10-25T14:34:13.531Z",
       "updated": "2026-10-26T23:30:38.409Z"
+    },
+    {
+      "schema": 1,
+      "id": "20260829-152248-roly-poly-v-l2",
+      "rocket": "Roly Poly V - L2",
+      "motor": "J570-14",
+      "location": {
+        "name": "BARC",
+        "source": "log",
+        "lat": 39.468357,
+        "lon": -75.292864,
+        "alt_m": 33.3
+      },
+      "date": {
+        "utc": "2026-08-29T15:22:48Z",
+        "source": "gnss",
+        "local": "2026-08-29 11:22",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": null,
+        "board_asserted": null,
+        "firmware": "d7017c0",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 631.5,
+        "max_speed_mps": 79.74,
+        "max_accel_g": 14.91,
+        "peak_shock_g": 65.96,
+        "flight_time_s": 70.83,
+        "landing_distance_m": 88.76
+      },
+      "outcome": "partial",
+      "notes": "Good flight. Main computer shut down likely due to vibration, back motor eject and nose cone computer saved the flight.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "lora_20260829_150459.bin",
+          "flight_20260829_152400.bin",
+          "flight_20260829_152400.json"
+        ]
+      },
+      "source_file": "flight_20260829_152400.bin",
+      "created": "2026-11-09T18:58:32.222Z",
+      "updated": "2026-11-09T18:58:32.222Z"
     }
   ]
 }
