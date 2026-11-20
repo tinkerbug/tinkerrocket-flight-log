@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-20T11:25:44.835Z",
+  "updated": "2026-11-20T11:26:07.127Z",
   "flights": [
     {
       "schema": 1,
@@ -187,6 +187,52 @@
       "source_file": "flight_20261101_175238.bin",
       "created": "2026-11-09T17:11:25.654Z",
       "updated": "2026-11-09T17:11:25.654Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261101-173316-v2-2-6-in",
+      "rocket": "V2 2.6 in",
+      "motor": "F67-6",
+      "location": {
+        "name": "CENJARS",
+        "source": "log",
+        "lat": 40.163429,
+        "lon": -74.080817,
+        "alt_m": 42.5
+      },
+      "date": {
+        "utc": "2026-11-01T17:33:16Z",
+        "source": "gnss",
+        "local": "2026-11-01 12:33",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "M1",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": true
+      },
+      "results": {
+        "apogee_m": 94.4,
+        "max_speed_mps": 155.59,
+        "max_accel_g": 6.79,
+        "peak_shock_g": 77.11,
+        "flight_time_s": 20.17,
+        "landing_distance_m": 21.29
+      },
+      "outcome": "success",
+      "notes": "Good flight and recovery",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "flight_20261101_173337.bin",
+          "flight_20261101_173337.json",
+          "lora_20261101_172520.bin"
+        ]
+      },
+      "source_file": "flight_20261101_173337.bin",
+      "created": "2026-11-09T17:09:10.725Z",
+      "updated": "2026-11-09T17:09:37.183Z"
     },
     {
       "schema": 1,
