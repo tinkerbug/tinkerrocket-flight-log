@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-20T11:25:33.436Z",
+  "updated": "2026-11-20T11:25:44.835Z",
   "flights": [
     {
       "schema": 1,
@@ -141,6 +141,52 @@
       "source_file": "flight_20261101_185116.bin",
       "created": "2026-11-04T21:20:10.956Z",
       "updated": "2026-11-04T21:20:10.956Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261101-175153-65mm-roll-control",
+      "rocket": "65mm Roll Control",
+      "motor": "G80-7",
+      "location": {
+        "name": "CENJARS",
+        "source": "log",
+        "lat": 40.163389,
+        "lon": -74.080868,
+        "alt_m": 25.3
+      },
+      "date": {
+        "utc": "2026-11-01T17:51:53Z",
+        "source": "gnss",
+        "local": "2026-11-01 12:51",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V9",
+        "board_asserted": true,
+        "firmware": "41b2ab92",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 297.83,
+        "max_speed_mps": 74.15,
+        "max_accel_g": 9,
+        "peak_shock_g": 17.32,
+        "flight_time_s": 45.51,
+        "landing_distance_m": 125.89
+      },
+      "outcome": "success",
+      "notes": "Good flight and roll control. Landed in a tree, but recovered.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "flight_20261101_175238.json",
+          "flight_20261101_175238.bin",
+          "lora_20261101_174105.bin"
+        ]
+      },
+      "source_file": "flight_20261101_175238.bin",
+      "created": "2026-11-09T17:11:25.654Z",
+      "updated": "2026-11-09T17:11:25.654Z"
     },
     {
       "schema": 1,
