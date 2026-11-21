@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-21T23:47:41.490Z",
+  "updated": "2026-11-21T23:55:44.222Z",
   "flights": [
     {
       "schema": 1,
@@ -98,6 +98,52 @@
       "source_file": "flight_20261121_182500__9e28ab5c.bin",
       "created": "2026-11-21T23:47:40.757Z",
       "updated": "2026-11-21T23:47:40.757Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261121-162926-65mm-roll-control",
+      "rocket": "65mm Roll Control",
+      "motor": "G78-7",
+      "location": {
+        "name": "BARC",
+        "source": "log",
+        "lat": 39.468184,
+        "lon": -75.292724,
+        "alt_m": -0.2
+      },
+      "date": {
+        "utc": "2026-11-21T16:29:26Z",
+        "source": "gnss",
+        "local": "2026-11-21 11:29",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V10",
+        "board_asserted": true,
+        "firmware": "78aa2110",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 231.66,
+        "max_speed_mps": 64.52,
+        "max_accel_g": 8.2,
+        "peak_shock_g": 18.93,
+        "flight_time_s": null,
+        "landing_distance_m": 146.79
+      },
+      "outcome": "failure",
+      "notes": "Good up, ballistic down after engine did not eject the nose cone.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "lora_20261121_153123.bin",
+          "flight_recovered_2__9e289e94.bin",
+          "flight_recovered_2__9e289e94.json"
+        ]
+      },
+      "source_file": "flight_recovered_2__9e289e94.bin",
+      "created": "2026-11-21T23:55:43.366Z",
+      "updated": "2026-11-21T23:55:43.366Z"
     },
     {
       "schema": 1,
