@@ -4,7 +4,7 @@ Published from the [TinkerRocket flight analysis tool](https://tinkerbug-robotic
 
 | Date | Rocket | Motor | Location | Computer | Apogee (m) | Max speed (m/s) | Outcome | Report |
 |---|---|---|---|---|---:|---:|---|---|
-| 2026-11-21 13:23 | Rolly Polly - Custom GNSS |  | BARC | V10 · 78aa2110 | 595 | 101 |  | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261121-182340-rolly-polly-custom-gnss) |
+| 2026-11-21 13:23 | Rolly Polly - Custom GNSS | J570-14 | BARC | V10 · 78aa2110 | 595 | 101 | Success | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261121-182340-rolly-polly-custom-gnss) |
 | 2026-11-01 15:21 | BT-60 SM-2 | F52-5 | CENJARS | M1 · 41b2ab92+ | 63 | 31 | Failure | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261101-202112-65mm-roll-control) |
 | 2026-11-01 14:38 | GTV White | G74-6 | CENJARS | V9 · 41b2ab92 | 203 | 61 |  | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261101-193803-gtv-white) |
 | 2026-11-01 13:51 | GTV Blue | F6706 | CENJARS | V9 · 41b2ab92 | 160 | 56 |  | [report](https://tinkerbug-robotics.github.io/TinkerRocket/#/pilots/tinkerbug/20261101-185100-gtv-blue) |

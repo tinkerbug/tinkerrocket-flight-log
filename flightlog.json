@@ -3,13 +3,13 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-21T23:43:50.872Z",
+  "updated": "2026-11-21T23:44:18.914Z",
   "flights": [
     {
       "schema": 1,
       "id": "20261121-182340-rolly-polly-custom-gnss",
       "rocket": "Rolly Polly - Custom GNSS",
-      "motor": "",
+      "motor": "J570-14",
       "location": {
         "name": "BARC",
         "source": "log",
@@ -37,8 +37,8 @@
         "flight_time_s": 77.07,
         "landing_distance_m": 267.85
       },
-      "outcome": null,
-      "notes": "",
+      "outcome": "success",
+      "notes": "Great flight with clean data and good recovery",
       "files": {
         "report": "report.html",
         "data": [
@@ -50,7 +50,7 @@
       },
       "source_file": "flight_20261121_182458__9e28ab60.bin",
       "created": "2026-11-21T23:43:49.981Z",
-      "updated": "2026-11-21T23:43:49.981Z"
+      "updated": "2026-11-21T23:44:18.269Z"
     },
     {
       "schema": 1,
