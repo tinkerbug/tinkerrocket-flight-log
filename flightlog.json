@@ -3,7 +3,7 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-21T23:44:18.914Z",
+  "updated": "2026-11-21T23:47:41.490Z",
   "flights": [
     {
       "schema": 1,
@@ -51,6 +51,53 @@
       "source_file": "flight_20261121_182458__9e28ab60.bin",
       "created": "2026-11-21T23:43:49.981Z",
       "updated": "2026-11-21T23:44:18.269Z"
+    },
+    {
+      "schema": 1,
+      "id": "20261121-182340-rolly-polly-septentrio",
+      "rocket": "Rolly Polly - Septentrio",
+      "motor": "J570-14",
+      "location": {
+        "name": "BARC",
+        "source": "log",
+        "lat": 39.468183,
+        "lon": -75.292688,
+        "alt_m": 30.7
+      },
+      "date": {
+        "utc": "2026-11-21T18:23:40Z",
+        "source": "gnss",
+        "local": "2026-11-21 13:23",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V9",
+        "board_asserted": true,
+        "firmware": "023739a4",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 625.35,
+        "max_speed_mps": 101.32,
+        "max_accel_g": 12.97,
+        "peak_shock_g": 202.77,
+        "flight_time_s": 78.94,
+        "landing_distance_m": 270.81
+      },
+      "outcome": "success",
+      "notes": "Great flight and recovery. Clean data. Nose e-bay on flight with two computers.",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "lora_20261121_180242.bin",
+          "flight_20261121_182500__9e28ab5c.bin",
+          "flight_20261121_182500__9e28ab5c.json",
+          "lora_20261121_180242_rocket1.csv"
+        ]
+      },
+      "source_file": "flight_20261121_182500__9e28ab5c.bin",
+      "created": "2026-11-21T23:47:40.757Z",
+      "updated": "2026-11-21T23:47:40.757Z"
     },
     {
       "schema": 1,
