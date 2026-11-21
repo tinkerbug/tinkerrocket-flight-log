@@ -1,0 +1,98 @@
+{
+  "apogee_time_s" : 11.701023,
+  "burnout_time_s" : 2.371814,
+  "max_altitude_m" : 594.3857395553196,
+  "max_speed_mps" : 101.33923425801085,
+  "settings" : {
+    "board" : "V10 (asserted)",
+    "camera" : {
+      "type" : "runcam"
+    },
+    "fw_dirty" : false,
+    "fw_git_sha" : "78aa2110",
+    "imu" : {
+      "dynamic_rate" : true,
+      "gyro_fs_dps" : 4000,
+      "high_g_fs_g" : 256,
+      "low_g_fs_g" : 16,
+      "mounting" : {
+        "mode" : "manual",
+        "orientation" : "+X",
+        "residual_deg" : 0
+      },
+      "update_rate_hz" : 3840
+    },
+    "pyro" : {
+      "ch1" : {
+        "enabled" : true,
+        "trigger_mode" : "time_after_apogee",
+        "trigger_value" : 0
+      },
+      "ch2" : {
+        "enabled" : true,
+        "trigger_mode" : "altitude_on_descent",
+        "trigger_value" : 243.84
+      },
+      "ch3" : {
+        "enabled" : false,
+        "trigger_mode" : "time_after_apogee",
+        "trigger_value" : 0
+      },
+      "ch4" : {
+        "enabled" : false,
+        "trigger_mode" : "time_after_apogee",
+        "trigger_value" : 0
+      }
+    },
+    "roll_control" : {
+      "cmd_limit_max_deg" : 20,
+      "cmd_limit_min_deg" : -20,
+      "d_lpf_hz" : 10,
+      "delay_ms" : 500,
+      "gain_schedule" : {
+        "enabled" : true,
+        "scale_cap" : 3,
+        "v_min" : 25,
+        "v_ref" : 50
+      },
+      "guidance_enabled" : false,
+      "kd" : 0,
+      "ki" : 0.01,
+      "kp" : 0.12,
+      "kp_angle" : 2,
+      "min_speed_mps" : 25,
+      "mode" : "rate",
+      "profile" : [
+
+      ],
+      "profile_semantics" : "ramp",
+      "rate_cap_dps" : 60,
+      "roll_rate_set_point" : 0
+    },
+    "servo" : {
+      "bias_us" : [
+        0,
+        100,
+        0,
+        55
+      ],
+      "enabled" : true,
+      "fin_max_deg" : 60,
+      "fin_min_deg" : -60,
+      "frequency_hz" : 50,
+      "max_pulse_us" : 2000,
+      "min_pulse_us" : 1000
+    }
+  },
+  "source" : {
+    "downloaded_at" : "2026-11-21T18:42:39Z",
+    "fc_fw" : "78aa2110-v10+20261119-0228",
+    "fc_gnss" : "gnss-sdr-dev",
+    "oc_board" : "V10",
+    "oc_fw" : "78aa2110-v10+20261119-0230",
+    "rocket_id" : 7,
+    "rocket_profile" : "Rolly Polly V10",
+    "unit_id" : "9e28ab60",
+    "unit_name" : "Mantis V10.2"
+  }
+}

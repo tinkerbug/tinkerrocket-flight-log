@@ -3,8 +3,55 @@
   "pilot": {
     "login": "tinkerbug"
   },
-  "updated": "2026-11-20T11:26:44.965Z",
+  "updated": "2026-11-21T23:43:50.872Z",
   "flights": [
+    {
+      "schema": 1,
+      "id": "20261121-182340-rolly-polly-custom-gnss",
+      "rocket": "Rolly Polly - Custom GNSS",
+      "motor": "",
+      "location": {
+        "name": "BARC",
+        "source": "log",
+        "lat": 39.468184,
+        "lon": -75.292695,
+        "alt_m": -0.3
+      },
+      "date": {
+        "utc": "2026-11-21T18:23:40Z",
+        "source": "gnss",
+        "local": "2026-11-21 13:23",
+        "tz": "America/New_York"
+      },
+      "computer": {
+        "board": "V10",
+        "board_asserted": true,
+        "firmware": "78aa2110",
+        "firmware_dirty": false
+      },
+      "results": {
+        "apogee_m": 594.98,
+        "max_speed_mps": 101.34,
+        "max_accel_g": 13.34,
+        "peak_shock_g": 145.37,
+        "flight_time_s": 77.07,
+        "landing_distance_m": 267.85
+      },
+      "outcome": null,
+      "notes": "",
+      "files": {
+        "report": "report.html",
+        "data": [
+          "lora_20261121_180242.bin",
+          "flight_20261121_182458__9e28ab60.bin",
+          "flight_20261121_182458__9e28ab60.json",
+          "lora_20261121_180242_rocket7.csv"
+        ]
+      },
+      "source_file": "flight_20261121_182458__9e28ab60.bin",
+      "created": "2026-11-21T23:43:49.981Z",
+      "updated": "2026-11-21T23:43:49.981Z"
+    },
     {
       "schema": 1,
       "id": "20261101-202112-65mm-roll-control",
